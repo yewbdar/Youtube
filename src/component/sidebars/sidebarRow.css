@@ -1,0 +1,36 @@
+.sidebar__row{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.sidebar_icon{
+    font-size: large !important;
+}
+.sidebar_title{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+   color: #606060;
+   
+}
+.sidebar__row:hover{
+    background-color: lightgray;
+    cursor: pointer;
+
+}
+.sidebar__row:hover > .sidebar_icon{
+    color :red
+}
+.sidebar__row:hover > .sidebar_title{
+    font-weight: bold;
+}
+.sidebar__row.selected{
+    background-color: lightgray;
+}
+.sidebar__row.selected > .sidebar_icon {
+    color: red;
+}
+.sidebar__row.selected > {
+    font-weight: bold;
+}
