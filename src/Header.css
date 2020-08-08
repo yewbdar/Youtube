@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position:sticky;
+    
+}
+.header__left{
+   display: flex;
+}
+.header__input{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid black
+}
+.header__right{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.header__logo{
+    width: 50px;
+    object-fit: contain;
+    margin-left: 10px;
+}
+.header__input > input{
+    flex:1;
+    border: none;
+}
+.header__searchButton{
+    width: 50px !important;
+    background-color: #fafafa;
+    color: gray;
+    border-left: 1px solid lightgray;
+}
+.header__icon{
+    margin-left: 20px;
+}
