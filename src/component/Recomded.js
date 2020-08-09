@@ -3,7 +3,7 @@ import './Recommed.css'
 function Recomded() {
     return (
         <div className='recommed'>
-            <h1>this is tecommeded vdios</h1>
+            <h2>Recommended</h2>
         </div>
     )
 }
