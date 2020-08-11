@@ -11,13 +11,12 @@
     margin-left: 20px;
     font-size: 12px;
     font-weight: 500;
-   color: #606060;
+    color: #606060;
    
 }
 .sidebar__row:hover{
     background-color: lightgray;
     cursor: pointer;
-
 }
 .sidebar__row:hover > .sidebar_icon{
     color :red
