@@ -5,7 +5,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import VideoCallIcon from "@material-ui/icons/VideoCall";
 import AppsIcon from "@material-ui/icons/Apps";
 import NotificationsIcon from "@material-ui/icons/Notifications";
-import AccountCircleIcon from "@material-ui/icons/AccountCircle";
+import Avatar from '@material-ui/core/Avatar';
 function Header() {
   return (
     <div className="header">
@@ -19,14 +19,14 @@ function Header() {
       </div>
 
       <div className="header__input">
-        <input placeholder="Serch" type="text" />
+        <input placeholder="Search" type="text" />
         <SearchIcon className='header__searchButton'/>
       </div>
       <div className="header__right">
         <VideoCallIcon className='header__icon'/>
         <AppsIcon className='header__icon' />
         <NotificationsIcon className='header__icon'/>
-        <AccountCircleIcon className='header__icon'/>
+        <Avatar  src='https://i.ytimg.com/vi/Gzu7D6PvxXY/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBbTUAac1bQ-WrbuFSnt0uiPbFpBQ' className='header__icon'/>
       </div>
     </div>
   );

@@ -1,8 +1,32 @@
-.recommed{
-    /* display: flex;
-    align-items: center; */
-}
+
 .videoCard{
-   margin-top: 5px;
-   /* width: 270px; */
+   margin-bottom: 40px;
+   width: 270px;
+   margin-right:  20px;
+}
+.videoImage{
+    width:250px;
+    height:140px;
+}
+.videoCard_info{
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+    padding-right:30px;
+}
+.video_text{
+    margin-left: 15px;
+}
+.videoCard_text >h4{
+   font-size: 14px;
+   margin-bottom: 5px;
+}
+.videoCard_text > p{
+    font-size: 14px;
+    color:gray
+ }
+.videoCard_avatar{
+    margin-right:  10px;
+    height: 40px !important;
+    width: 40px !important;
 }
