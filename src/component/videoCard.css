@@ -10,7 +10,7 @@
 }
 .videoCard_info{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     margin-top:10px;
     padding-right:30px;
 }
