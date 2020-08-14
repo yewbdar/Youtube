@@ -16,7 +16,8 @@
     display: flex;
     align-items: center;
     width: 40%;
-    border: 1px solid black
+    border: 1px solid black;
+    object-fit: contain;
 }
 .header__right{
     display: flex;
@@ -31,9 +32,11 @@
 .header__input > input{
     flex:1;
     border: none;
+    
+    /* width: 40%; */
 }
 .header__searchButton{
-    width: 50px !important;
+    /* width: 50px !important; */
     background-color: #fafafa;
     color: gray;
     border-left: 1px solid lightgray;

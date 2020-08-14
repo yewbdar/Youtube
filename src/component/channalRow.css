@@ -1,12 +1,25 @@
 .channalRow{
-    margin-right: 50px;
+    width: 70%;
 }
 .channalRow ,.verified{
     display: flex;
     align-items: center;
 }
 .avatar{
-    width: 70px !important;
-    height: 70px !important;
-    margin-right: 20px;
+    width: 120px !important;
+    height: 120px !important;
+    margin: 20px 60px;
 }           
+.channalRow_text{
+    display: flex;
+    flex-direction: column;
+}
+.channalRow_text > p {
+    color: gray;
+    font-size: small !important;
+}
+.channalRow_text > h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

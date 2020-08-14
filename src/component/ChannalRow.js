@@ -6,9 +6,9 @@ function ChannalRow({image,channel,numOfVideo,verified,subs,description
 }) {
     return (
         <div className='channalRow'>
-            <Avatar className='avatar' src={image}/>
-            <div className='channalRow_info'>
-            {verified ? <div className='verified'>{channel} <VerifiedUserSharpIcon/></div> : null}
+            <Avatar className='avatar' src={image} alt={channel}/>
+            <div className='channalRow_text'>
+            <h4>{channel} {{channel} && <VerifiedUserSharpIcon/>}</h4>
             <p>{subs} subscrber . {numOfVideo} video</p>
             <p>{description}</p>
             <p>{channel}</p>

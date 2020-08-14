@@ -2,6 +2,8 @@ import React from 'react';
 import Header from './component/Header'
 import Sidebar from './component/Sidebar'
 import Recomded from './component/Recomded' 
+import LoginTab from './component/LoginPage'
+import Login from './component/Login'
 import SearchPage from './component/SearchPage' 
 import './App.css';
 import {
@@ -22,8 +24,10 @@ function App() {
         </Route>
         <Route path='/'>
         <div className='app_pages'>
+          {/* <Login/> */}
         <Sidebar/>
-        <Recomded/>
+         <Recomded/>
+         <LoginTab/>
         </div>
         </Route>
       </Switch>

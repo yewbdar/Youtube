@@ -20,3 +20,7 @@
     color: lightgray;
    
 }
+.searchPage_video{
+    display: flex;
+    flex-wrap: wrap;
+}
